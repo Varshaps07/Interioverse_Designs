@@ -88,7 +88,9 @@ th{
   background: oklab(88.77199999999999% -0.05467 -0.03588);
 
 }
-
+/* td{
+  background: #d2eedd;  
+} */
 
 table button {
   all: unset;                 
@@ -298,15 +300,13 @@ width: 60%;
 
 
 .user-avatar{
-  width:28px;
-  height:28px;
-  min-width:28px;
-  min-height:28px;
-  border-radius:50%;
+  width: 5%;
+  min-width:36px;
+  height:2.3vw;
+  min-height:36px;
   object-fit:cover;
+  border-radius: 40px;
 }
-
-
 /*  */
 
 
@@ -829,7 +829,9 @@ margin-top: 19%;}
   padding-left: 0;
   padding-right: 0;
 }
-
+.outer table tbody td:nth-child(5){
+  width: 10%;
+}
 .outer table tbody td:nth-child(2),
 .outer table th:nth-child(2){
   text-align: center;
