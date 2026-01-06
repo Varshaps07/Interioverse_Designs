@@ -196,7 +196,7 @@ const filteredUsers = users.filter((u) => {
 
 
                       >
-                        <i class="fa-solid fa-trash"></i>
+                        <i className="fa-solid fa-trash"></i>
                       </button>
                     </div>
                   </td>

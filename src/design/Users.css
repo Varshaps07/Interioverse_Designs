@@ -88,9 +88,7 @@ th{
   background: oklab(88.77199999999999% -0.05467 -0.03588);
 
 }
-td{
-  background: #d2eedd;  
-}
+
 
 table button {
   all: unset;                 
@@ -129,13 +127,7 @@ tbody tr:nth-child(odd) td {
   border: none;
   cursor: default;
 }
-
-.delete-icon-btn {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  font-size: 14px;
-}
+/*  */
 /* Status column layout */
 .status-cell {
   display: grid;
@@ -147,7 +139,6 @@ tbody tr:nth-child(odd) td {
 
 .delete-icon-btn {
 
-  font-size: 20px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -307,13 +298,15 @@ width: 60%;
 
 
 .user-avatar{
-  width: 5%;
-  min-width:36px;
-  height:2.3vw;
-  min-height:36px;
+  width:28px;
+  height:28px;
+  min-width:28px;
+  min-height:28px;
+  border-radius:50%;
   object-fit:cover;
-  border-radius: 40px;
 }
+
+
 /*  */
 
 
@@ -836,9 +829,7 @@ margin-top: 19%;}
   padding-left: 0;
   padding-right: 0;
 }
-.outer table tbody td:nth-child(5){
-  width: 10%;
-}
+
 .outer table tbody td:nth-child(2),
 .outer table th:nth-child(2){
   text-align: center;
@@ -856,20 +847,20 @@ margin-top: 19%;}
   padding-left: 0;
   padding-right: 0;
 }
-.outer table tbody td:nth-child(){
+/* .outer table tbody td:nth-child(){
   width: 15%;
-}
+} */
 
 
-.outer table tbody td:nth-child(4),
-.outer table th:nth-child(){
+.outer table tbody td:nth-child(4){
+/* .outer table th:nth-child(){ */
   text-align: center;
   padding-left: 0;
   padding-right: 0;
 }
-.outer table tbody td:nth-child(){
+/* .outer table tbody td:nth-child(){
   width: 15%;
-}
+} */
 
 
 
