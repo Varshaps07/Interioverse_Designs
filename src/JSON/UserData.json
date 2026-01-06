@@ -1,0 +1,247 @@
+[
+  {
+    "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+,
+    "userProfileId": 101,
+    "name": "Aarav Patel",
+    "email": "aarav@gmail.com",
+    "phone": "9876543210",
+    "type": "Designer",
+    "address": "MG Road, Bangalore",
+    "location": "Bangalore",
+    "instagram": "instagram",
+    "linkedin": "linkedin",
+    "experience": 4,
+    "projects": 3,
+      "referralCount": 12,
+  "specialization": "UI / UX Designer",
+  "projectVolume": "32 Projects",
+  "registeredName": "Varsha Sonnad",
+  "tagline": "Designing Experiences",
+  "signupDate": "12-Jan-2024",
+  "pincode": "560078",
+
+    "brand": "UrbanNest",
+    "date": "12-02-2024",
+    "projectsList": [
+      {
+        "id": 1,
+        "name": "Skyline Residency",
+        "location": "Whitefield, Bangalore",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      },
+      {
+        "id": 2,
+       "name": "Skyline Residency",
+        "location": "Whitefield, Bangalore",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      },
+        {
+        "id": 3,
+        "name": "Skyline Residency",
+        "location": "Whitefield, Bangalore",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      }
+     
+
+    ]
+  },
+
+
+
+
+  {
+    "userProfileId": 102,
+    "name": "Sneha Reddy",
+    "email": "sneha@gmail.com",
+    "phone": "9123456780",
+    "type": "Agent",
+    "pincode":"587315",
+    "referralCount":"3",
+    "specialization":"developer",
+    "projectVolume":"56 Projects",
+    "address": "Banjara Hills, Hyderabad",
+    "location": "Hyderabad",
+    "instagram": "instagram",
+    "linkedin": "linkedin",
+    "experience": 3,
+    "projects": 2,
+    "brand": "DreamHomes",
+    "date": "20-01-2024",
+    "projectsList": [
+      {
+        "id": 1,
+        "name": "Skyline Residency",
+        "location": "Whitefield, Bangalore",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      },
+      {
+        "id": 2,
+       "name": "Skyline Residency",
+        "location": "Whitefield, Bangalore",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      },
+        {
+        "id": 3,
+        "name": "Skyline Residency",
+        "location": "Whitefield, Bangalore",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      }
+    ]
+  },
+
+
+
+
+  {
+    "userProfileId": 103,
+    "name": "Rohit Sharma",
+    "email": "rohit@gmail.com",
+    "phone": "9988776655",
+    "type": "User",
+    "address": "Andheri West, Mumbai",
+    "location": "Mumbai",
+      "instagram": "instagram",
+    "linkedin": "linkedin",
+    "experience": 1,
+    "projects": 2,
+    "brand": "HomeSphere",
+    "date": "15-03-2024",
+     "pincode":"587311",
+    "referralCount":"12",
+    "specialization":" react developer",
+    "projectVolume":"5 Projects",
+    "projectsList": [
+      {
+        "id": 1,
+     "name": "Skyline Residency",
+        "location": "Whitefield, Bangalore",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      },
+      {
+        "id": "2",
+       "name": "Skyline Residency",
+        "location": "Whitefield, Bangalore",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      }
+
+    ]
+  },
+{
+  "userProfileId": 104,
+  "name": "Anu Singh",
+  "email": "ananya@gmail.com",
+  "phone": "9876123456",  "instagram": "instagram",
+    "linkedin": "linkedin",
+  "type": "Designer",
+  "address": "Koramangala, Bangalore",
+  "location": "Bangalore",
+  "experience": 6,
+   "pincode":"586203",
+    "referralCount":"8",
+    "specialization":"designer",
+    "projectVolume":"53 Projects",
+  "projects": 3,
+  "brand": "DesignNest",
+  "date": "22-03-2024",
+  "projectsList": [
+    {
+      "id": "P401",
+     "name": "Skyline Residency",
+        "location": "Whitefield, Bangalore",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      },
+    {
+      "projectId": "P402",
+      "projectName": "Urban Heights",
+      "location": "BTM Layout, Bangalore",
+      "image": "https://images.unsplash.com/photo-1600585152915-d208bec867a1"
+    },
+    {
+      "projectId": "P403",
+      "projectName": "Elite Apartments",
+      "location": "HSR Layout, Bangalore",
+      "image": "https://images.unsplash.com/photo-1600585154207-1bb99fc4f7de"
+    }
+  ]
+},
+{
+  "userProfileId": 105,
+  "name": "Karthik Rao",
+  "email": "karthik@gmail.com",
+  "phone": "9988776655",
+  "type": "Agent",
+   "pincode":"588315",
+    "referralCount":"9",  "instagram": "instagram",
+    "linkedin": "linkedin",
+    "specialization":"js developer",
+    "projectVolume":"8 Projects",
+  "address": "Madhapur, Hyderabad",
+  "location": "Hyderabad",
+  "experience": 4,
+  "projects": 2,
+  "brand": "UrbanSpace",
+  "date": "10-02-2024",
+  "projectsList": [
+    {
+      "id": "P501",
+     "name": "Skyline Residency",
+        "location": "Whitefield, Bangalore",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      },
+    {
+      "id": "P502",
+     "name": "Skyline Residency",
+        "location": "Whitefield, Bangalore",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      }
+  ]
+},
+{
+  "userProfileId": 106,
+  "name": "Neha Verma",  "instagram": "instagram",
+    "linkedin": "linkedin",
+  "email": "neha@gmail.com",
+  "phone": "9123456780",
+  "type": "User",
+   "pincode":"517315",
+    "referralCount":"23",
+    "specialization":" ui developer",
+    "projectVolume":"6 Projects",
+  "address": "Viman Nagar, Pune",
+  "location": "Pune",
+  "experience": 3,
+  "projects": 3,
+  "brand": "InteriorCraft",
+  "date": "01-01-2024",
+  "projectsList": [
+    {
+      "projectId": "P601",
+     "name": "Skyline Residency",
+        "location": "Whitefield, Bangalore",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      },
+    {
+      "projectId": "P602",
+    "name": "Skyline Residency",
+        "location": "Whitefield, Bangalore",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      },
+    {
+      "projectId": "P603",
+     "name": "Skyline Residency",
+        "location": "Whitefield, Bangalore",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+      }
+    
+  ]
+}
+
+
+
+
+
+
+
+
+]
