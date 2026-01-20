@@ -1,0 +1,103 @@
+/* TOP NAVBAR */
+.login-navbar {
+  height: 50px;
+  background: lab(96.08% -1.94 -1.78);
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.login-logo {
+  width: 150px;
+}
+
+/* PAGE BACKGROUND */
+.login-outer {
+  height: 100vh;
+/* background-color:#E8F5F8; */
+
+
+  background: linear-gradient(to bottom, #d2f4fc 0%, white 100%);
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* RIGHT BLUE PANEL */
+.login2 {
+  width: 900px;
+  height: 440px;
+  background: url("../assets/back2.PNG");
+  background-size: cover;
+  border-radius: 9px;
+  padding: 0;                 /* ❗remove padding */
+  box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
+
+/* WHITE LOGIN CARD */
+.login {
+  width: 280px;
+  background: #ffffff;
+  padding: 35px 40px;
+  border-radius: 7px;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+/* FORM */
+.inputs {
+  margin-bottom: 18px;
+  padding-left: -10px;
+}
+
+.inputs label {
+
+    padding-left: -30px;
+
+  font-size: 16px;
+  color: #5b6b78;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.inputs input {
+  width: 100%;
+  padding: 11px;
+  padding-left: 10px;
+  border-radius: 4px;
+  border: 1px solid #dce7ee;
+  outline: none;
+  font-size: 14px;
+}
+
+.inputs input:focus {
+  /* border-color: #67b7c7; */
+}
+
+/* ERROR */
+.error {
+  font-size: 12px;
+  color: red;
+  margin-top: 4px;
+}
+
+/* VERIFY BUTTON */
+button {
+  width: 105%;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  background:#1f425a;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* button:hover {
+  background: linear-gradient(to right, #5fb9c8, #3d99ad);
+} */

@@ -1,0 +1,134 @@
+/* .signup-wrapper{
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(to bottom,#99e0f0 0%,white 70%);
+}
+
+.signup-card{
+  width:45%;
+  background:#fff;
+  padding:4%;
+  border-radius:3%;
+  box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+h2{text-align:center;color:#1F425A;margin-bottom:3%;}
+
+.row{width:100%;display:flex;gap:6%;margin-bottom:3%;}
+
+.input-group{width:100%;display:flex;flex-direction:column;}
+
+.input-group label{font-size:85%;margin-bottom:2%;color:#1F425A;}
+
+.input-group input,.input-group select{
+  width:100%;padding:3%;border:1px solid #ccc;border-radius:3%;
+}
+
+button{
+  width:100%;padding:3%;border:none;border-radius:3%;
+  background:#1F425A;color:#fff;margin-top:4%;
+}
+
+.error{color:red;text-align:center;margin-bottom:3%;}
+
+@media(max-width:768px){.signup-card{width:80%;}}
+@media(max-width:480px){.signup-card{width:95%;}.row{flex-direction:column;}} */
+.signup-wrapper{
+  height:100vh;
+  background:linear-gradient(to bottom,#99e0f0 0%,white 65%);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;     /* 🚫 no page scroll */
+}
+
+.signup-card{
+  /* width:40%; */
+  /* max-width:780px; */
+  /* height:90%; */
+  background:white;
+  padding:1.4%;
+  border-radius:10px;
+  box-shadow:0 0 20px rgba(0,0,0,0.15);
+}
+
+.signup-card h2{
+  text-align:center;
+  margin-bottom:0%;
+  font-size:18px;
+  color:#1F425A;
+}
+
+/* ---------- FIELDS ---------- */
+.field{
+  display:flex;
+  flex-direction:column;
+}
+
+.field label{
+  font-size:11px;
+  margin-bottom:2%;
+  color:#1F425A;
+  font-weight:600;
+}
+
+.field input{
+  height:26px;              /* 🔽 smaller inputs */
+  padding:3px 6px;
+  border:1px solid #bde6e6;
+  border-radius:4px;
+  font-size:12px;
+}
+.field select{
+  height: 35px;
+
+
+
+   padding:3px 6px;
+  border:1px solid #bde6e6;
+  border-radius:4px;
+  font-size:12px;
+
+}
+/* ---------- GRID LAYOUT ---------- */
+.row-1{ display:grid; grid-template-columns:1fr; gap:1%; margin-bottom:1%; }
+.row-2{ display:grid; grid-template-columns:1fr 1fr; gap:1%; margin-bottom:1%; }
+.row-3{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:1%; margin-bottom:1%; }
+
+/* ---------- BUTTON ---------- */
+ .createbutton{
+  width:50%;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  height:30px
+}.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.input-error {
+  border: 1px solid red !important;
+}
+
+.input-ok {
+  border: 1px solid #ccc;
+}
+
+.api-error {
+  color: red;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.success-msg {
+  color: green;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+}
