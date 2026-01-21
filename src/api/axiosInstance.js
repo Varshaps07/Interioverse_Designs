@@ -2,8 +2,8 @@ import axios from "axios";
 
 const axiosInstance = axios.create({
   // baseURL: "http://localhost:5010/api",
-    baseURL: "https://interioverse-designs-backend.onrender.com/",
-
+    baseURL: "https://interioverse-designs-backend.onrender.com",
+            
   withCredentials: true,
   headers: {
     "Content-Type": "application/json"
