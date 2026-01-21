@@ -4,7 +4,6 @@ import Dashboard from './design/Dashboard'
 
 // import ProtectedRoute from './Redux/ProtectedRoute'
 import Login from './Login/Login'
-import AdminDashboard from './Admin/Admindashboard'
 import Signup from './Signup/Signup'
 import ProtectedRoute from './Routes/ProtectedRoute'
 
