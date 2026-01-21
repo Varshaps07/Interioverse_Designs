@@ -10,19 +10,19 @@ const Nav = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
- const handleLogout = async () => {
+const handleLogout = async () => {
   try {
     console.log("Logout button clicked");
 
-    const res = await axiosInstance.get(
-      "/auth/logout",
-      {},
-      { withCredentials: true }
-    );
+    const res = await axiosInstance.get("/auth/logout");
 
     console.log("Backend logout response:", res.data);
 
-    dispatch(logout());
+    // Mark that user just logged out
+    sessionStorage.setItem("justLoggedOut", "true");
+
+    localStorage.clear();
+    sessionStorage.removeItem("token");
 
     navigate("/", { replace: true });
 
@@ -30,9 +30,9 @@ const Nav = () => {
 
   } catch (err) {
     console.log("Logout error:", err);
-    alert("Logout failed");
   }
 };
+
 
   return (
     // <div className="users-page">

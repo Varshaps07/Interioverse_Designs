@@ -16,26 +16,36 @@ const Login = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  useEffect(() => {
-  axiosInstance
-    .get("/auth/me")
-    .then((res) => {
-      // If user is already logged in, DO NOT allow login page
+useEffect(() => {
+  const checkUser = async () => {
+    try {
+      const res = await axiosInstance.get("/auth/me");
+
       if (res.data.role === "admin") {
         navigate("/admin-dashboard", { replace: true });
       } else if (res.data.role === "user") {
         navigate("/signup", { replace: true });
       }
-    })
-.catch((err) => {
-  if (err.response?.status === 401) {
-    // expected – user not logged in
-    return;
+    } catch (error) {
+      // silent fail – user not logged in
+    }
+  };
+
+  // SKIP auth check if user just logged out OR just signed up
+  const justLoggedOut = sessionStorage.getItem("justLoggedOut");
+  const justSignedUp = sessionStorage.getItem("justSignedUp");
+
+  if (justLoggedOut || justSignedUp) {
+    sessionStorage.removeItem("justLoggedOut");
+    sessionStorage.removeItem("justSignedUp");
+    return;          // DO NOT call /auth/me
   }
-  console.log(err);
-});
+
+  checkUser();
 
 }, [navigate]);
+
+
 
 
 

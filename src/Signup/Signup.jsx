@@ -153,6 +153,7 @@ const emailRegex = /^[a-zA-Z0-9._%+-]+@[gmail]+\.[com]{2,}$/;
     alert("Signup Successful!");
 
     console.log("Navigating to login page...");
+      sessionStorage.setItem("justSignedUp", "true");
 
     navigate("/",{replace:true});
 
