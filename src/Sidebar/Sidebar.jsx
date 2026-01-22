@@ -2,6 +2,8 @@ import React from "react";
 import "./Sidebar.css";
 import { Link, useNavigate } from "react-router-dom";
 
+
+import logo from "../assets/logo.jpeg"
 const Sidebar = () => {
 
 
@@ -10,7 +12,7 @@ const Sidebar = () => {
     return (
         <div className="sidebar">
             <img
-                src="https://interioverse.com/_next/static/media/header_logo.16f5c53e.png"
+                src={logo}
                 alt=""
                 height={33}
                 style={{ marginBottom: 20 }}

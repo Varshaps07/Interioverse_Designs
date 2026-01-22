@@ -5,7 +5,7 @@ import { logout } from "../Redux/AuthSlice";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import axiosInstance from "../api/axiosInstance";
-import logo from "../assets/logo.jpeg"
+
 const Nav = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -66,7 +66,7 @@ const handleLogout = async () => {
   <div className="nav-right">
     <span className="home">Home</span>
     <img
-      src={logo}
+      src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
       alt="profile"
       className="profile"
     />
