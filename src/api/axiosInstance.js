@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5010/api",
-    // baseURL: "https://interioverse-designs-backend.onrender.com/api",
+  // baseURL: "http://localhost:5010/api",
+    baseURL: "https://interioverse-designs-backend.onrender.com/api",
             
   withCredentials: true,
   headers: {
