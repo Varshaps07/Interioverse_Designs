@@ -165,7 +165,7 @@ import React, { useState, useEffect } from "react";
 import "./Login.css";
 import { useNavigate } from "react-router-dom";
 import axiosInstance from "../api/axiosInstance";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.jpeg";
 
 
 const Login = () => {
