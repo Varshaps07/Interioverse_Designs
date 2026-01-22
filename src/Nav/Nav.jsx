@@ -5,7 +5,7 @@ import { logout } from "../Redux/AuthSlice";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import axiosInstance from "../api/axiosInstance";
-import logo from "../assets/logo"
+import logo from "../assets/logo.jpeg"
 const Nav = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
