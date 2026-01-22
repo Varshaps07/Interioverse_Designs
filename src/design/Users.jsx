@@ -13,20 +13,23 @@ const [users,setUsers] = useState([]);
 useEffect(() => {
   axiosInstance.get("/admin/users", { withCredentials:true })
     .then(res => {
+console.log("ADMIN USERS RAW RESPONSE 👉", res.data);
+   const rawUsers = Array.isArray(res.data)
+  ? res.data
+  : res.data.users || [];
 
-      const formatted = res.data.map((u,i)=>({
-
-        _id: u._id,
-
-        userProfileId: u.userProfileId || i+100,
-        name: u.username || "",
-        email: u.email || "",
-date: u.signupDate ? u.signupDate : "-",
+const formatted = rawUsers.map((u, i) => ({
+  _id: u._id,
+  userProfileId: u.userProfileId || i + 100,
+  name: u.username || "",
+  email: u.email || "",
+  date: u.signupDate ? u.signupDate : "-",
   projects: Array.isArray(u.projects) ? u.projects.length : 0,
-        status: u.isVerified ? "Verified" : "Not Verified",
-        type: u.type || "User",
-        full: u
-      }));
+  status: u.isVerified ? "Verified" : "Not Verified",
+  type: u.type || "User",
+  full: u
+}));
+
 
 
 
@@ -201,7 +204,7 @@ return (
 <tbody>
 {filteredUsers.map((u) => (
 <tr
-key={u.userProfileId}
+key={u._id}
 onClick={() => setSelectedUser(u.full)}
 >
 <td className="profile-id-cell">
