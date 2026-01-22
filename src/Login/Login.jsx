@@ -224,7 +224,7 @@ const Login = () => {
     <>
       <div className="login-navbar">
       
-         <img src={logo} alt="Interioverse"
+         <img src={"./assets/logo"} alt="Interioverse"
           className="login-logo"
         />
       </div>
