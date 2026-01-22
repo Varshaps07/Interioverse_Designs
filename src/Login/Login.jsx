@@ -165,6 +165,8 @@ import React, { useState, useEffect } from "react";
 import "./Login.css";
 import { useNavigate } from "react-router-dom";
 import axiosInstance from "../api/axiosInstance";
+import logo from "../assets/logo.png";
+
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -221,9 +223,8 @@ const Login = () => {
   return (
     <>
       <div className="login-navbar">
-        <img
-          src="https://interioverse.com/_next/static/media/header_logo.16f5c53e.png"
-          alt="Interioverse"
+      
+         <img src={logo} alt="Interioverse"
           className="login-logo"
         />
       </div>
