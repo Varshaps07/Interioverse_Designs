@@ -23,11 +23,12 @@ const App = () => {
 
 },{
       path: "/signup",
-      element: (
-        <ProtectedRoute role="user">
-          <Signup />
-        </ProtectedRoute>
-      )
+      // element: (
+      //   <ProtectedRoute role="user">
+      //     <Signup />
+      //   </ProtectedRoute>
+      // )
+      element:<Signup></Signup>
     }
 ])
   return (
